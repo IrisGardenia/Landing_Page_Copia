@@ -13,15 +13,17 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <div class="container">
-            <div class="botao-container">
-                <div class="botao" onclick="redirecionar('pages/inicio.html')">Início</div>
-                <div class="botao" onclick="redirecionar('pages/sobre.html')">Sobre</div>
-                <div class="botao" onclick="redirecionar('pages/contato.html')">Contato</div>
-            </div>
 
-            <div class="whatsapp-icone" onclick="window.open('https://wa.me/3193753688', '_blank')">
+            <div class="top-botoes">
+                <div class="botao-container">
+                    <div class="botao" onclick="redirecionar('inicio.html')">Início</div>
+                    <div class="botao" onclick="redirecionar('sobre.html')">Sobre</div>
+                    <div class="botao" onclick="redirecionar('contato.html')">Contato</div>
+                </div>
+
+                <div class="whatsapp-icone" onclick="window.open('https://wa.me/3193753688', '_blank')">
                     <img src="assets/icone_zap.png" alt="WhatsApp" />
                 </div>
 
@@ -29,21 +31,24 @@
                     Chamar no WhatsApp
                 </div>
             </div>
+
             <div class="text">
-                <h1> <span style="color: black;">Psícologo</span><br>
+                <h1><span style="color: black;">Psícologo</span><br>
                     <span style="color: #4A8251;">Vinicius Pasolini</span>
                 </h1>
-                <h2><span style="color: black;"> Psicólogo Clínico | CRP 04/74644 <br>
+                <h2><span style="color: black;">Psicólogo Clínico | CRP 04/74644 <br>
                         Acolhimento e escuta para o seu bem-estar emocional</span>
                 </h2>
+
+                <!-- Botões zap-->
+                <!-- Botão de agendamento -->
                 <div class="button-container">
-                    <a href="" target="_blank" class="btn-link"> <button>Clique para agendar </button></a>
+                    <a href="" target="_blank" class="btn-link"><button>Clique para agendar</button></a>
                 </div>
-
             </div>
-            <div class="imagem">
-                <img src="assets/img/pasolini.jpg" alt="Foto do psicólogo Vinicius Pasolini">
 
+            <div class="imagem">
+                <img src="assets/pasolini.jpg" alt="Foto do psicólogo Vinicius Pasolini">
             </div>
         </div>
     </header>
@@ -55,24 +60,23 @@
             <div class="container mt-5">
                 <div class="row justify-content-center mx-auto" style="max-width: 1000px;">
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pages/terapiaAdulta.html">
-                            <img src="assets/img/terapia_adulta.png" class="img-fluid rounded shadow"
-                                alt="Terapia adulta">
+                        <a href="pagina1.html">
+                            <img src="assets/terapia_adulta.png" class="img-fluid rounded shadow" alt="Terapia adulta">
                         </a>
                         <h5 class="text-center mt-2">Terapia adulta</h5>
                     </div>
 
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pages/terapiaInfantil.html">
-                            <img src="assets/img/terapia_infantil - Copia.png" class="img-fluid rounded shadow"
+                        <a href="pagina2.html">
+                            <img src="assets/terapia_infantil.png" class="img-fluid rounded shadow"
                                 alt="Terapia infantil">
                         </a>
                         <h5 class="text-center mt-2">Terapia infantil</h5>
                     </div>
 
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pages/agendamentos.html">
-                            <img src="assets/img/atendimentos.jpg" class="img-fluid rounded shadow" alt="Atendimentos">
+                        <a href="pagina3.html">
+                            <img src="assets/atendimentos.jpg" class="img-fluid rounded shadow" alt="Atendimentos">
                         </a>
                         <h5 class="text-center mt-2">Atendimentos</h5>
                     </div>
@@ -81,7 +85,7 @@
         </div>
     </main>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container text-center py-4">
             <h4>Vamos realizar uma consulta?</h4>
 
@@ -91,7 +95,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
